@@ -1,0 +1,33 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shopping Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class = 'container'>
+    <form>
+  <h3>Shopping Calculator</h3>
+  <label>Item</label><br>
+  <input type="text" class= 'inp' id="item" value=""><br>
+  <label>Quantity</label><br>
+  <input type="text" class = 'inp' id="quantity" value="" /><br>
+  <label>Price</label><br>
+  <input type="text" id="price" class = 'inp' value="" /><br><button type = 'button' id="button">Submit</button>
+  <button type = 'button' id="reset">Reset</button>
+    </form>
+      </div><br>
+    <div class = 'display-result'>
+    <div class = 'total'>Total:</div>
+  <div class = 'result' id = 'result'></div>
+    </div>
+  <div class = 'col'>
+  <h4>Items Added</h4>
+  <ol id = "latestEntry"></ol>
+  </div>
+</body>
+</html>
